@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using DemoMVC.Models;
+using DemoMVC.Data;
 using MvcMovie.Models;
 
 namespace DemoMVC.Controllers
