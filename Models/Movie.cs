@@ -7,6 +7,10 @@ namespace MvcMovie.Models
     {
         [Key]
         public int Id { get; set; }
+        [ Required( ErrorMessage ="Title is required.")]
+        [ MaxLength(35)]
+        [MinLength(5)]
+      
         public string Title { get; set; }
 
         [DataType(DataType.Date)]
